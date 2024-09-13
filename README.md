@@ -1,10 +1,10 @@
-# Timescale DB Example
+# TimescaleDB Example
 
 English | [简体中文](./README.zh-CN.md)
 
 This example demonstrates how to use the TimescaleDB extension to manage time-series data. TimescaleDB is an open-source PostgreSQL extension designed for handling large-scale time-series data.
 
-## Timescale DB Features
+## TimescaleDB Features
 
 * **Automatic Partitioning**: Automatically partitions data for improved query performance.
 * **Continuous Aggregation**: Supports continuous aggregate queries to reduce data volume.

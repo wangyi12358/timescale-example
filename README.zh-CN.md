@@ -1,10 +1,10 @@
-# Timescale DB Example
+# TimescaleDB Example
 
 [English](./README.md) | 简体中文
 
 这个示例演示了如何使用 TimescaleDB 扩展来管理时序数据。TimescaleDB 是一个开源的 PostgreSQL 扩展，用于处理大规模时序数据。  
 
-## Timescale DB 特征
+## TimescaleDB 特征
 
 * **自动分片**：自动将数据分片存储，提高查询性能。
 * **连续聚合**：支持连续聚合查询，减少数据量。
@@ -12,7 +12,7 @@
 * **SQL 兼容**：支持标准 SQL 查询。
 * **自动压缩**：自动压缩历史数据，减少存储空间。
 
-## 使用 Timescale DB 自动分片
+## 使用 TimescaleDB 自动分片
 
 ### 1. 启用 TimescaleDB 扩展
 
@@ -80,7 +80,7 @@ SELECT * FROM timescaledb_information.hypertables;
 SELECT * FROM timescaledb_information.chunks;
 ```
 
-## 使用 Timescale DB 自动压缩（默认不开启）
+## 使用 TimescaleDB 自动压缩（默认不开启）
 
 TimescaleDB 的自动压缩功能可以帮助节省存储空间并提高查询效率，特别是在处理大规模时序数据时。默认情况下，TimescaleDB 并不会自动启用数据压缩，你需要手动配置和设置压缩策略。
 
